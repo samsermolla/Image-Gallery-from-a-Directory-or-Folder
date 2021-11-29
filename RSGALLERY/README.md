@@ -7,5 +7,6 @@ Creating a no-database PHP image gallery is as easy as getting a list of image f
 ## QUICK NOTES
 - `gallery.php` – The simpler gallery without image caption.
 - `caption-gallery.php` – Alternate version with image caption.
+- 
 ## STEP 1) PHP & HTML
 ![RimSam gallery](gallery/simple-gallery-1.webp)
