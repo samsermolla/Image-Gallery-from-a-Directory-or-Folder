@@ -84,3 +84,4 @@ foreach ($images as $i) {
 }
 ```
 Since there is no database, there is nowhere we can store the captions. But we can still use the file name as the caption of the images – This is just a small modification to the PHP to also output the `<figcaption>`.
+:+1: If you spot a bug, feel free to comment below. I try to answer short questions too, but it is one person versus the entire world… If you need answers urgently, please check out [click here](https://github.com/samsermolla)
