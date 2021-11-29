@@ -1,4 +1,4 @@
-# Image Gallery From A Directory Or Folder 
+#  > <img src="gallery/rimsam.png" width="50px" height="50px" alt="RimSam">Image Gallery From A Directory Or Folder 
 > <img src="gallery/rimsam.png" width="50px" height="50px" alt="RimSam">
 >
 Creating a no-database PHP image gallery is as easy as getting a list of image files using `glob()` and outputting them in HTML.
