@@ -7,11 +7,11 @@ Creating a no-database PHP image gallery is as easy as getting a list of image f
  foreach ($images as $i) { echo "<img src='gallery/". basename($i) ."'>"; }
 ```
 
-## QUICK NOTES
+##  <img src="gallery/rimsam.png" width="15px" height="15px" alt="RimSam">QUICK NOTES
 - `gallery.php` – The simpler gallery without image caption.
 - `caption-gallery.php` – Alternate version with image caption.
 
-## STEP 1) PHP & HTML
+##  <img src="gallery/rimsam.png" width="15px" height="15px" alt="RimSam">STEP 1) PHP & HTML
 ![RimSam gallery](gallery/simple-gallery-1.webp)
 > gallery.php
 ```
@@ -29,7 +29,7 @@ foreach ($images as $i) {
 Yep, that’s all to the gallery page. As in the introduction, all we are doing here is –
 - Get a list of image files from the gallery folder using `glob()`.
 - Then throw them into the `<div class="gallery">` gallery container.
-## STEP 2) THE CSS
+##  <img src="gallery/rimsam.png" width="15px" height="15px" alt="RimSam">STEP 2) THE CSS
 > gallery.css
 ```
 .gallery {
@@ -56,7 +56,7 @@ body, html {
 }
 ```
 Of course, we are not so “barbaric” to just row out raw images without any cosmetics. So here is how we use a simple CSS grid to layout the images into a nice gallery, also add some responsive mobile-friendly magic. Please feel free to modify these to fit your own project.
-## STEP 3) JAVASCRIPT FULLSCREEN IMAGE
+##  <img src="gallery/rimsam.png" width="15px" height="15px" alt="RimSam">STEP 3) JAVASCRIPT FULLSCREEN IMAGE
 > gallery.js
 ```
 window.addEventListener("DOMContentLoaded", () => {
@@ -77,7 +77,7 @@ window.addEventListener("DOMContentLoaded", () => {
 ```
 Lastly, a small Javascript snippet to “click on an image to toggle fullscreen mode”.
 
-## EXTRA) FILENAME AS IMAGE CAPTION
+##  <img src="gallery/rimsam.png" width="15px" height="15px" alt="RimSam"> EXTRA) FILENAME AS IMAGE CAPTION
 > caption-gallery.php
 ```
 foreach ($images as $i) {
