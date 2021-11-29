@@ -1,5 +1,5 @@
 # Image Gallery From A Directory Or Folder 
-![RimSam](gallery/rimsam.png =50x50)
+![RimSam](gallery/rimsam.png){:height="50" width="50"}
 Creating a no-database PHP image gallery is as easy as getting a list of image files using `glob()` and outputting them in HTML.
 ```
  $images = glob("PATH/GALLERY/*.{jpg,jpeg,gif,png,bmp,webp}", GLOB_BRACE);
